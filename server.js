@@ -20,4 +20,4 @@ http
       res.end(content);
     });
   })
-  .listen(5000);
+  .listen(5000, () => console.log("Server is running"));
